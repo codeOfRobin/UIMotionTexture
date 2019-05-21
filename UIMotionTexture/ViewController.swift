@@ -120,15 +120,34 @@ class CTAButton: UIView {
 	}
 }
 
+class CTAButtonNode: ASDisplayNode {
+
+	let node: ASDisplayNode
+	var button: CTAButton? {
+		return self.node.view as? CTAButton
+	}
+
+	init(styleProvider: CTAButtonStyleProvider = DefaultCTAStyleProvider()) {
+		self.node = ASDisplayNode(viewBlock: { () -> UIView in
+			return CTAButton(styleProvider: styleProvider)
+		})
+		super.init()
+		self.automaticallyManagesSubnodes = true
+	}
+
+	override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
+		return ASInsetLayoutSpec.init(insets: .zero, child: node)
+	}
+}
+
 class ViewController: UIViewController {
 
-	let ctaButton = CTAButton()
+	let ctaButton = CTAButtonNode()
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-		ctaButton.button.backgroundColor = .red
-		self.view.addSubview(ctaButton)
+		self.view.addSubnode(ctaButton)
 		self.view.backgroundColor = UIColor(red:0.17, green:0.17, blue:0.21, alpha:1.0)
 	}
 
