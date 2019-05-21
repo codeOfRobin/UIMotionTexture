@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429EC81622932CAE008D3771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429EC81522932CAE008D3771 /* AppDelegate.swift */; };
+		429EC81822932CAE008D3771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429EC81722932CAE008D3771 /* ViewController.swift */; };
+		429EC81B22932CAE008D3771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429EC81922932CAE008D3771 /* Main.storyboard */; };
+		429EC81D22932CB0008D3771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429EC81C22932CB0008D3771 /* Assets.xcassets */; };
+		429EC82022932CB0008D3771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429EC81E22932CB0008D3771 /* LaunchScreen.storyboard */; };
+		429EC82B22932CB0008D3771 /* UIMotionTextureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429EC82A22932CB0008D3771 /* UIMotionTextureTests.swift */; };
+		46340F1652D4DA076DFF1DB7 /* Pods_UIMotionTextureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E180DEB0BE01733290857 /* Pods_UIMotionTextureTests.framework */; };
+		7FDED438A1E68418B248FD64 /* Pods_UIMotionTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1924CD05C31E8166925597 /* Pods_UIMotionTexture.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		429EC82722932CB0008D3771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429EC80A22932CAE008D3771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429EC81122932CAE008D3771;
+			remoteInfo = UIMotionTexture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		401A14DF266953D62598B880 /* Pods-UIMotionTexture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMotionTexture.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIMotionTexture/Pods-UIMotionTexture.release.xcconfig"; sourceTree = "<group>"; };
+		429EC81222932CAE008D3771 /* UIMotionTexture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMotionTexture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429EC81522932CAE008D3771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		429EC81722932CAE008D3771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		429EC81A22932CAE008D3771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		429EC81C22932CB0008D3771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		429EC81F22932CB0008D3771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		429EC82122932CB0008D3771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429EC82622932CB0008D3771 /* UIMotionTextureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMotionTextureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429EC82A22932CB0008D3771 /* UIMotionTextureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMotionTextureTests.swift; sourceTree = "<group>"; };
+		429EC82C22932CB0008D3771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83355161CFAF9AC61096A845 /* Pods-UIMotionTextureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMotionTextureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIMotionTextureTests/Pods-UIMotionTextureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A9E180DEB0BE01733290857 /* Pods_UIMotionTextureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIMotionTextureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36A94900EBCDE49EE662732 /* Pods-UIMotionTextureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMotionTextureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIMotionTextureTests/Pods-UIMotionTextureTests.release.xcconfig"; sourceTree = "<group>"; };
+		C27B55102A558AD9A2D45F78 /* Pods-UIMotionTexture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIMotionTexture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIMotionTexture/Pods-UIMotionTexture.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1924CD05C31E8166925597 /* Pods_UIMotionTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIMotionTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429EC80F22932CAE008D3771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDED438A1E68418B248FD64 /* Pods_UIMotionTexture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429EC82322932CB0008D3771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46340F1652D4DA076DFF1DB7 /* Pods_UIMotionTextureTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429EC80922932CAE008D3771 = {
+			isa = PBXGroup;
+			children = (
+				429EC81422932CAE008D3771 /* UIMotionTexture */,
+				429EC82922932CB0008D3771 /* UIMotionTextureTests */,
+				429EC81322932CAE008D3771 /* Products */,
+				DC686CF8C92C636FBA605252 /* Pods */,
+				7B6EF892480D979EDF3D6943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		429EC81322932CAE008D3771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429EC81222932CAE008D3771 /* UIMotionTexture.app */,
+				429EC82622932CB0008D3771 /* UIMotionTextureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429EC81422932CAE008D3771 /* UIMotionTexture */ = {
+			isa = PBXGroup;
+			children = (
+				429EC81522932CAE008D3771 /* AppDelegate.swift */,
+				429EC81722932CAE008D3771 /* ViewController.swift */,
+				429EC81922932CAE008D3771 /* Main.storyboard */,
+				429EC81C22932CB0008D3771 /* Assets.xcassets */,
+				429EC81E22932CB0008D3771 /* LaunchScreen.storyboard */,
+				429EC82122932CB0008D3771 /* Info.plist */,
+			);
+			path = UIMotionTexture;
+			sourceTree = "<group>";
+		};
+		429EC82922932CB0008D3771 /* UIMotionTextureTests */ = {
+			isa = PBXGroup;
+			children = (
+				429EC82A22932CB0008D3771 /* UIMotionTextureTests.swift */,
+				429EC82C22932CB0008D3771 /* Info.plist */,
+			);
+			path = UIMotionTextureTests;
+			sourceTree = "<group>";
+		};
+		7B6EF892480D979EDF3D6943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1924CD05C31E8166925597 /* Pods_UIMotionTexture.framework */,
+				8A9E180DEB0BE01733290857 /* Pods_UIMotionTextureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC686CF8C92C636FBA605252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C27B55102A558AD9A2D45F78 /* Pods-UIMotionTexture.debug.xcconfig */,
+				401A14DF266953D62598B880 /* Pods-UIMotionTexture.release.xcconfig */,
+				83355161CFAF9AC61096A845 /* Pods-UIMotionTextureTests.debug.xcconfig */,
+				B36A94900EBCDE49EE662732 /* Pods-UIMotionTextureTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429EC81122932CAE008D3771 /* UIMotionTexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429EC82F22932CB0008D3771 /* Build configuration list for PBXNativeTarget "UIMotionTexture" */;
+			buildPhases = (
+				A6B97D445D0E6B896C695D81 /* [CP] Check Pods Manifest.lock */,
+				429EC80E22932CAE008D3771 /* Sources */,
+				429EC80F22932CAE008D3771 /* Frameworks */,
+				429EC81022932CAE008D3771 /* Resources */,
+				B9C02473F4A5B2FD04FB1E16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIMotionTexture;
+			productName = UIMotionTexture;
+			productReference = 429EC81222932CAE008D3771 /* UIMotionTexture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		429EC82522932CB0008D3771 /* UIMotionTextureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429EC83222932CB0008D3771 /* Build configuration list for PBXNativeTarget "UIMotionTextureTests" */;
+			buildPhases = (
+				E716F7345196893152913DD3 /* [CP] Check Pods Manifest.lock */,
+				429EC82222932CB0008D3771 /* Sources */,
+				429EC82322932CB0008D3771 /* Frameworks */,
+				429EC82422932CB0008D3771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429EC82822932CB0008D3771 /* PBXTargetDependency */,
+			);
+			name = UIMotionTextureTests;
+			productName = UIMotionTextureTests;
+			productReference = 429EC82622932CB0008D3771 /* UIMotionTextureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429EC80A22932CAE008D3771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rmalhotra;
+				TargetAttributes = {
+					429EC81122932CAE008D3771 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					429EC82522932CB0008D3771 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 429EC81122932CAE008D3771;
+					};
+				};
+			};
+			buildConfigurationList = 429EC80D22932CAE008D3771 /* Build configuration list for PBXProject "UIMotionTexture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 429EC80922932CAE008D3771;
+			productRefGroup = 429EC81322932CAE008D3771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429EC81122932CAE008D3771 /* UIMotionTexture */,
+				429EC82522932CB0008D3771 /* UIMotionTextureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429EC81022932CAE008D3771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429EC82022932CB0008D3771 /* LaunchScreen.storyboard in Resources */,
+				429EC81D22932CB0008D3771 /* Assets.xcassets in Resources */,
+				429EC81B22932CAE008D3771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429EC82422932CB0008D3771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6B97D445D0E6B896C695D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIMotionTexture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C02473F4A5B2FD04FB1E16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UIMotionTexture/Pods-UIMotionTexture-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIMotionTexture/Pods-UIMotionTexture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E716F7345196893152913DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIMotionTextureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429EC80E22932CAE008D3771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429EC81822932CAE008D3771 /* ViewController.swift in Sources */,
+				429EC81622932CAE008D3771 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429EC82222932CB0008D3771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429EC82B22932CB0008D3771 /* UIMotionTextureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		429EC82822932CB0008D3771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429EC81122932CAE008D3771 /* UIMotionTexture */;
+			targetProxy = 429EC82722932CB0008D3771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		429EC81922932CAE008D3771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429EC81A22932CAE008D3771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		429EC81E22932CB0008D3771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429EC81F22932CB0008D3771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		429EC82D22932CB0008D3771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		429EC82E22932CB0008D3771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429EC83022932CB0008D3771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27B55102A558AD9A2D45F78 /* Pods-UIMotionTexture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2XZXD8B4;
+				INFOPLIST_FILE = UIMotionTexture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.UIMotionTexture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		429EC83122932CB0008D3771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401A14DF266953D62598B880 /* Pods-UIMotionTexture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2XZXD8B4;
+				INFOPLIST_FILE = UIMotionTexture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.UIMotionTexture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		429EC83322932CB0008D3771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83355161CFAF9AC61096A845 /* Pods-UIMotionTextureTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2XZXD8B4;
+				INFOPLIST_FILE = UIMotionTextureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.UIMotionTextureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIMotionTexture.app/UIMotionTexture";
+			};
+			name = Debug;
+		};
+		429EC83422932CB0008D3771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36A94900EBCDE49EE662732 /* Pods-UIMotionTextureTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2XZXD8B4;
+				INFOPLIST_FILE = UIMotionTextureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.UIMotionTextureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIMotionTexture.app/UIMotionTexture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		429EC80D22932CAE008D3771 /* Build configuration list for PBXProject "UIMotionTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429EC82D22932CB0008D3771 /* Debug */,
+				429EC82E22932CB0008D3771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429EC82F22932CB0008D3771 /* Build configuration list for PBXNativeTarget "UIMotionTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429EC83022932CB0008D3771 /* Debug */,
+				429EC83122932CB0008D3771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429EC83222932CB0008D3771 /* Build configuration list for PBXNativeTarget "UIMotionTextureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429EC83322932CB0008D3771 /* Debug */,
+				429EC83422932CB0008D3771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429EC80A22932CAE008D3771 /* Project object */;
+}
